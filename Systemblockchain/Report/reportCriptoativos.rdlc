@@ -60,7 +60,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Nome do Criptoativo</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -90,7 +92,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Cotação</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -120,7 +124,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tipo Criptoativo</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -233,7 +239,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -258,10 +263,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>4.15078cm</Top>
-        <Left>4.17724cm</Left>
+        <Top>4.25662cm</Top>
+        <Left>3.51737cm</Left>
         <Height>2.49646cm</Height>
-        <Width>11.97146cm</Width>
+        <Width>11.97147cm</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -270,10 +275,10 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>4.10417in</Height>
+    <Height>4.46875in</Height>
     <Style />
   </Body>
-  <Width>8.44792in</Width>
+  <Width>7.84375in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>

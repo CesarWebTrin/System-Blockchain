@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnLogar = new System.Windows.Forms.Button();
             this.btnCadastroShow = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -59,9 +58,9 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(455, 179);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 18);
+            this.label2.Size = new System.Drawing.Size(50, 18);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Usuário ou Matrícula";
+            this.label2.Text = "E-mail";
             // 
             // label3
             // 
@@ -89,16 +88,6 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(228, 20);
             this.txtSenha.TabIndex = 5;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(458, 348);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(126, 17);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Me mantenha logado";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // btnLogar
             // 
@@ -148,7 +137,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCadastroShow);
             this.Controls.Add(this.btnLogar);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label3);
@@ -171,7 +159,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtSenha;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button btnLogar;
         private System.Windows.Forms.Button btnCadastroShow;
         private System.Windows.Forms.PictureBox pictureBox1;

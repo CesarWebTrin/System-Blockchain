@@ -41,14 +41,22 @@ namespace Systemblockchain.Views
                 obj.Email = txtEmail.Text;
                 obj.Senha = txtSenha.Text;
                 int x = AdministradorModel.Inserir(obj);
-                if(x > 0)
+                if(Convert.ToDateTime(dtNasc.Text).AddYears(18) > DateTime.Now)
                 {
-                    MessageBox.Show("Usuário Cadastrado com sucesso");
+                    if (x > 0 && txtSenha.Text == txtConfSenha.Text)
+                    {
+                        MessageBox.Show("Usuário Cadastrado com sucesso");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuário não cadastrado");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Usuário não cadastrado");
+                    MessageBox.Show("Idade menor de 18 anos");
                 }
+               
             }catch(Exception ex)
             {
                 MessageBox.Show("Usuário não cadastrado" + ex);

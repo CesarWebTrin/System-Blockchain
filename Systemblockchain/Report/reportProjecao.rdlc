@@ -60,7 +60,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Nome do Criptoativo</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -90,7 +92,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Valor Futuro</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -120,7 +124,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Tipo Criptoativo</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -257,10 +263,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>3.93912cm</Top>
-        <Left>4.69477cm</Left>
+        <Top>4.25662cm</Top>
+        <Left>3.51737cm</Left>
         <Height>4.11042cm</Height>
-        <Width>9.52247cm</Width>
+        <Width>9.52248cm</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -272,7 +278,7 @@
     <Height>4.28125in</Height>
     <Style />
   </Body>
-  <Width>7.5625in</Width>
+  <Width>6.79167in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>

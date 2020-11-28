@@ -20,9 +20,9 @@
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
         <Top>0.54667cm</Top>
-        <Left>5.18425cm</Left>
+        <Left>3.51737cm</Left>
         <Height>0.94396cm</Height>
-        <Width>11.93588cm</Width>
+        <Width>10.48067cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -54,7 +54,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Nome Cliente</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -129,8 +131,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>4.23016cm</Top>
-        <Left>7.00828cm</Left>
+        <Top>4.25662cm</Top>
+        <Left>3.51737cm</Left>
         <Height>2.76104cm</Height>
         <Width>6.20417cm</Width>
         <ZIndex>1</ZIndex>
@@ -144,7 +146,7 @@
     <Height>4.05208in</Height>
     <Style />
   </Body>
-  <Width>8.78125in</Width>
+  <Width>6.97917in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>
